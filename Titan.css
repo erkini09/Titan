@@ -1,0 +1,76 @@
+body {
+    background-image: url('https://static.wikia.nocookie.net/solar-balls/images/b/b1/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B.jpg/revision/latest?cb=20240126152647&path-prefix=ru');
+    color: white;
+}
+
+h1,span {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#xətt {
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+}
+
+.cism {
+    margin-right: 20px;
+}
+
+#Titan {
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mətn {
+    width: 500px;
+}
+
+p {
+    margin-bottom: 60px;
+    font-family: "Roboto",sans-serif;
+}
+
+hr {
+    border-color: orangered;
+}
+
+table,th,td {
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.Sol {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Sağ {
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+.Ümumi {
+    display: flex;
+    align-items: baseline;
+}
+
+.yazı {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 300px){
+    body {
+        text-align: center;
+    }
+}
+
+img {
+    width: 520px;
+    margin-top: 10px;
+}
