@@ -1,10 +1,10 @@
-button:hover, #Axtarış:hover ,#əlaqə:hover{
+button:hover, #Axtarış:hover ,#barsbutton:hover ,#əlaqə:hover{
     background-color: rgb(60, 58, 74);
 }
 
 body {
-    font-family: "Poppins", serif;
-    background-color: black;
+    font-family: Roboto, serif;
+    margin: 0;
 }
 
 #Axtarış {
@@ -17,7 +17,7 @@ body {
 }
 
 .Yuxarı {
-    background-color: rgba(4,2,17,.85);
+    background-color: rgba(4,2,17,0.99);
     padding: 20px 72px;
     display: flex;
     align-items: center;
@@ -48,25 +48,18 @@ a {
     border: none;
     background-color: transparent;
     color: white;
-    border-radius: 200px;
-    width: 150px;
-    height: 40px;
     font-size: 15px;
+    width: 140px;
+    height: 40px;
+    border-radius: 9999px;
+
 }
 
 #əl {
     -webkit-box-shadow: 0px 0px 33px 8px rgba(104,167,230,1);
 -moz-box-shadow: 0px 0px 33px 8px rgba(104,167,230,1);
 box-shadow: 0px 0px 33px 8px rgba(104,167,230,1);
-}
-
-.barsbutton {
-    background-color: transparent;
-    border: none;
-    margin-left: 40px;
-    border-radius: 9999px;
-    width: 50px;
-    height: 40px;
+background-color: rgba(104,167,230,1);
 }
 
 #bars {
@@ -74,7 +67,24 @@ box-shadow: 0px 0px 33px 8px rgba(104,167,230,1);
     font-size: 20px;
 }
 
-#menu {
+#barsbutton {
+    background-color: transparent;
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 9999px;
+    margin-left: 50px;
+}
+
+#axtar-az-en {
     display: flex;
     align-items: center;
+}
+
+#Azərbaycanda-kosmik-ekosistemin-inkişafının-aparıcı-qüvvəsi {
+    color: white;
+    background: url('https://azercosmos.az/_next/static/media/horizon.f5dbd48d.jpg');
+    background-size: cover;
+    padding-top: 280px;
+    height: 1000px;
 }
