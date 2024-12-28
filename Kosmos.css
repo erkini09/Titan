@@ -88,3 +88,7 @@ background-color: rgba(104,167,230,1);
     padding-top: 280px;
     height: 1000px;
 }
+
+#menu {
+    text-decoration: none;
+}
