@@ -1,5 +1,6 @@
-button:hover, #Axtarış:hover ,#barsbutton:hover ,#əlaqə:hover{
+button:hover, #Axtarış:hover ,#barsbutton:hover ,#əlaqə:hover ,#az:hover ,#en:hover{
     background-color: rgb(60, 58, 74);
+    color: white;
 }
 
 body {
@@ -91,4 +92,38 @@ background-color: rgba(104,167,230,1);
 
 #menu {
     text-decoration: none;
+}
+
+#Aşağı {
+    background-color: #066c7a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 94px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#Cop29 {
+    width: 150px;
+    height: 94px;
+    margin-left: 60px;
+}
+
+#Daha-ətraflı {
+    background-color: rgb(35, 153, 168);
+    border: none;
+    width: 142px;
+    height: 38px;
+    color: white;
+    border-radius: 9999px;
+    margin-right: 60px;
+}
+
+button:hover, #Daha-ətraflı:hover {
+      color: #066c7a;
+      background-color: white;
 }
