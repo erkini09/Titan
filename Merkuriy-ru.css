@@ -1,0 +1,46 @@
+body {
+    background: url('https://static.wikia.nocookie.net/solar-balls/images/b/b1/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B.jpg/revision/latest?cb=20240126152647&path-prefix=ru');
+    color: white;
+}
+
+h1 ,table{
+    text-align: center;
+}
+
+.əsas {
+    display: inline-flex;
+}
+
+.sağ {
+    text-align: center;
+    display: block;
+}
+
+img {
+    width: 300px;
+    margin-left: 60px;
+}
+
+p {
+    width: 950px;
+}
+
+table,td,th {
+    background-color: white;
+    border: 1px black solid;
+    border-collapse: collapse;
+    color: black;
+    width: 400px;
+}
+
+table {
+    height: 50px;
+    width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        text-align: center;
+        display: inline-block;
+    }
+}

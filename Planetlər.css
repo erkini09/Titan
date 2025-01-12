@@ -1,7 +1,67 @@
 body {
-    background-color: rgb(0, 30, 56);
+    background: url('https://static.wikia.nocookie.net/solar-balls/images/b/b1/%D0%97%D0%B2%D1%91%D0%B7%D0%B4%D1%8B.jpg/revision/latest?cb=20240126152647&path-prefix=ru');
+    color: white;
 }
 
 h3 {
     text-align: center;
+}
+
+.Planet {
+    display: ruby-text;
+}
+
+@media (max-width: 600px) {
+    .Planet {
+        display: block;
+    }
+    .Planet span {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #Merkuriy {
+        width: 181px;
+        overflow: hidden;
+    }
+
+    #Venera {
+        width: 228px;
+        overflow: hidden;
+    }
+
+    #Yer {
+        width: 258px;
+        overflow: hidden;
+    }
+
+    #Mars {
+        width: 200px;
+        overflow: hidden;
+    }
+
+    #Yupiter {
+        width: 290px;
+        overflow: hidden;
+    }
+
+    #Saturn {
+        width: 419px;
+        overflow: hidden;
+    }
+
+    #Uran {
+        width: 228px;
+        overflow: hidden;
+    }
+
+    #Neptun {
+        width: 198px;
+        overflow: hidden;
+    }
+
+    body {
+        text-align: center;
+    }
+
 }
