@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра</title>
+</head>
+<body>
+    <button onclick="game()">Начать игру</button>
+    <button id="az">AZ</button>
+    <button id="en">EN</button>
+    <script>
+        var az = document.getElementById('az');
+        az.addEventListener('click', function(){
+            window.location.href = 'Javascript2-az.html';
+        });
+
+        var en = document.getElementById('en');
+        en.addEventListener('click', function(){
+            window.location.href = 'Javascript2-en.html';
+        });
+        function game(){
+        alert('Добро пожаловать в игру! У меня есть число от 1 до 100. Угадайте число!');
+        var userAnswer = prompt('Введите число');
+        var answer = Math.floor(Math.random() * 99 + 1);
+
+        console.log(answer);
+
+        while (userAnswer != answer){
+        if (userAnswer < answer){
+            userAnswer = prompt('Введенное вами число слишком маленькое!');
+        } else if (userAnswer > answer){
+           userAnswer = prompt('Введенное вами число слишком большое!');
+        }
+        }
+
+        alert('Поздравляем! Вы угадали число!');}
+    </script>
+</body>
+</html>

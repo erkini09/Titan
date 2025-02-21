@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="game()">Start the game</button>
+    <button id="az">AZ</button>
+    <button id="ru">RU</button>
+    <script>
+        button = document.querySelector('button');
+        button.style.width = '200px';
+        button.style.height = '50px';
+        button.style.backgroundColor = 'blue';
+        button.style.color = 'blue';
+
+        var az = document.getElementById('az');
+        az.addEventListener('click', function(){
+            window.location.href = 'Javascript2-az.html';
+        });
+
+        var ru = document.getElementById('ru');
+        ru.addEventListener('click', function(){
+            window.location.href = 'Javascript2-ru.html';
+        });
+        function game(){
+        alert('Welcome to the game! I have a number between 1-100 in mind. Guess the number!');
+        var userAnswer = prompt('Enter the number');
+        var answer = Math.floor(Math.random() * 99 + 1);
+
+        console.log(answer);
+
+        while (userAnswer != answer){
+        if (userAnswer < answer){
+            userAnswer = prompt('The number you entered is too low!');
+        } else if (userAnswer > answer){
+           userAnswer = prompt('The number you entered is too high!');
+        }
+        }
+
+        alert('Congratulations! You guessed the number!');}
+    </script>
+</body>
+</html>

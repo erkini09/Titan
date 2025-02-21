@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Səyahət başladı</title>
+    <link rel="stylesheet" href="Səyahət3.css">
+</head>
+<body>
+    <h1>Səyahət başladı</h1>
+    <h3>Raketin köməyi ilə siz öz yerinizə çatacaqsınız.</h3>
+    <img src="https://media.lordicon.com/icons/wired/lineal/489-rocket-space.svg" alt="Raket">
+    <p>Səyahət nömrənizi qeyd edin və səyahətə başlayın.</p>
+    <p>Sizin səyahət nömrəniz: <span id="random-number"></span></p>
+    <p id="journey"></p>
+    <form action="Səyahət.html">
+    <button>Yeni səyahət</button>
+    </form>
+    <form action="Səyahət.html">
+    <button>İmtina</button>
+    </form>
+    <script>
+                function generateRandomNumber() {
+            return Math.floor(1000 + Math.random() * 9000);
+        }
+
+        document.getElementById('random-number').innerText = generateRandomNumber();
+
+                const urlParams = new URLSearchParams(window.location.search);
+        const yer = urlParams.get('yer');
+        const getdiyinizYer = urlParams.get('getdiyiniz-yer');
+
+        if (yer && getdiyinizYer) {
+            document.getElementById('journey').innerText = `${yer} — — — — — — — — —${getdiyinizYer}`;
+        }
+    </script>
+</body>
+</html>

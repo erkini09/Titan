@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="en">EN</button>
+    <button id="ru">RU</button>
+    <button onclick="oyun()">Oyunu başlat</button>
+    <script>
+        var en = document.getElementById('en');
+        en.addEventListener('click', function(){
+            window.location.href = 'Javascript2-en.html';
+        });
+
+        var ru = document.getElementById('ru');
+        ru.addEventListener('click', function(){
+            window.location.href = 'Javascript2-ru.html';
+        });
+        function oyun(){
+        alert('Oyuna xoş gəldiniz! Ağlımda 1-100 arası bir ədədi var. Bu ədədi tapın!');
+        var istifadəçiCavabı = prompt('Ədədi daxil edin');
+        var cavab = Math.floor(Math.random() * 99 + 1);
+
+        console.log(cavab);
+
+        while (istifadəçiCavabı != cavab){
+        if (istifadəçiCavabı < cavab){
+            istifadəçiCavabı = prompt('Daxil etdiyiniz ədəd kiçikdir!');
+        } else if (istifadəçiCavabı > cavab){
+           istifadəçiCavabı = prompt('Daxil etdiyiniz ədəd böyükdür!');
+        }
+        }
+
+        alert('Təbriklər! Ədədi tapdınız!');}
+    </script>
+</body>
+</html>
