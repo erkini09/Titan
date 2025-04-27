@@ -1,0 +1,245 @@
+nav {
+    height: 120px !important;
+    position: fixed !important;
+    top: 0 !important;
+    background-color: white !important;
+    width: 100% !important;
+    z-index: 100 !important;
+}
+
+body {
+    font-family: 'Public-Sans', !important;
+    font-size: 20px !important;
+}
+
+.nav-item {
+    margin: 0 20px !important;
+}
+
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    color: #0064ff !important;
+}
+
+#landing-part {
+    height: 75vh;
+    position: fixed;
+    top: 0;
+    z-index: -1 !important;
+    width: 100%;
+}
+
+#circle {
+    height: 90vh;
+    width: 90vh;
+    border-radius: 50vh;
+    position: absolute;
+    background-color: white;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: -4px 25px 118px 20px rgba(0, 102, 255, 1);
+    -moz-box-shadow: -4px 25px 118px 20px rgba(0, 102, 255, 1);
+    box-shadow: -4px 25px 118px 20px rgba(0, 102, 255, 1);
+}
+
+#landing-text {
+    text-align: center;
+    width: 70vh;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+video {
+    width: 100%;
+}
+
+#main {
+    margin-top: 550px;
+    background-color: white;
+    position: relative;
+}
+
+#services {
+    position: relative;
+}
+
+#discoverer-circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+#discoverer-circle:hover {
+    width: 250px;
+    height: 250px;
+    transition: all ease-in-out 0.25s;
+}
+
+#Our-services {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#Our-services p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Cards {
+    border: #0064ff 3px solid;
+    width: 320px;
+    height: 370px;
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(26, 48, 145, 1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(26, 48, 145, 1);
+    box-shadow: 10px 10px 0px 0px rgba(26, 48, 145, 1);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+    margin: 0 20px;
+}
+
+.Card-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.Card-button {
+    background-color: #0064ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+}
+
+.Card-button:hover {
+    background-color: #0046b8;
+    transition: all ease-in-out 0.25s;
+}
+
+.Cards:hover {
+    height: 420px;
+    transition: all ease-in-out 0.10s;
+}
+
+#Card-row-1 {
+    margin-top: 100px;
+}
+
+#row-2 {
+    margin-top: 100px;
+}
+
+#Card2 {
+    margin-right: 10px;
+}
+
+#Our-Portfolio {
+    background-color: #e6f2ff;
+    height: 1500px;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative !important;
+}
+
+#abc {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#Our {
+    padding-top: 150px;
+    padding-left: 90px;
+}
+
+#Explore-more {
+    padding-left: 90px;
+    padding-right: 100px;
+}
+
+.pictures {
+    margin-top: 20px;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+.Blogs:hover h4 {
+    color: blue;
+    transition: all ease-in-out 0.15s;
+    transform: scale(1.1);
+}
+
+.Blogs h4 {
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.Blogs img {
+    transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+}
+
+.Blogs:hover img {
+    transform: scale(1.1);
+}
+
+.Article {
+    border-radius: 20px;
+    background-color: #e3f2ff;
+    color: #0064ff;
+    font-size: 15px;
+    width: 50px;
+    margin-top: 25px;
+}
+
+.Date {
+    color: gray;
+    font-size: 20px;
+}
+
+#blogs-2 {
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #0046b8;
+    color: rgb(255, 255, 255) !important;
+}
+
+footer a:hover {
+    color: rgb(208, 209, 250) !important;
+}
+
+#footer-pictures {
+    width: 270px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}

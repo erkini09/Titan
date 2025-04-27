@@ -1,0 +1,15 @@
+{
+  "name": "product-price-ai",
+  "version": "1.0.0",
+  "description": "AI for recognizing products and comparing prices.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3"
+  }
+}
+
+  
