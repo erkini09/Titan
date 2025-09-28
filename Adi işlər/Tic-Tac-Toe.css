@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(144, 192, 238);
+    font-family: 'Montserrat';
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.cell {
+    background-color: lightgreen;
+    border-radius: 20px;
+    width: 150px;
+    height:150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: 600;
+    color: rgb(144, 192, 238);
+}
+
+.cell:hover {
+    cursor: pointer;
+    transition-duration: 0.1s;
+    transition-timing-function: linear;
+    transform: scale(1.1);
+}

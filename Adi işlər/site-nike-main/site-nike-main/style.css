@@ -1,0 +1,49 @@
+#nav {
+    background-color: white;
+    display: flex;
+}
+
+.Nike-img {
+    height: 30px;
+}
+
+.nav-text {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-text:hover {
+    color: #000000;
+}
+
+#Find-a-store {
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 999px;
+    width: 120px;
+    margin-left: 618px;
+}
+
+#DISCOVERER-THE-EVOLUTION-OF-AIR {
+    color: #ffffff;
+    width: 700px;
+}
+.sekil2{
+    height: 700px;
+    width: 95%;
+    background-size: cover;
+    margin-left: 40px;
+}
+
+#button-on-image {
+    border-radius: 999px;
+    border: none;
+    margin-left: 20px;
+}
+
+.col-md-6 {
+    height: 700px;
+    width: 50%;
+}

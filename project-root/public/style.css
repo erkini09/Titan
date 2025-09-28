@@ -1,0 +1,64 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background: linear-gradient(to right, orange, purple);
+    padding: 1em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .lang-btn {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+  }
+  
+  .camera-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #capture-btn {
+    margin-top: 10px;
+    background-color: purple;
+    color: orange;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.2em;
+  }
+  
+  .product-list {
+    padding: 1em;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+  }
+  
+  .modal-content {
+    background: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+  
